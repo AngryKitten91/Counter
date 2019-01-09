@@ -1,0 +1,25 @@
+@import "settings/settings.scss";
+
+.button{
+    display: block;
+    margin: 20px auto 0px;
+    text-align: center;
+    background: $color-grey;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: $color-white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+}
+
+.button .fa {
+    margin-right: 5px;
+}
